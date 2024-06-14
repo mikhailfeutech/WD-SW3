@@ -95,4 +95,6 @@ WD-SW3-TC03
 |-------|---------|------|
 | HTML5 | For structuring content on the web | [W3Schools](https://www.w3schools.com/html/) |
 | CSS3  | For styling web content           | [W3Schools](https://www.w3schools.com/css/) |
+| HTML5 & CSS3  |For Website Footer using Html & CSS|[Youtube](https://www.youtube.com/watch?v=UpkEANWC2Ms)|
+| HTML5 & CSS3  |For Website Footer using Html & CSS|[Youtube](https://www.youtube.com/watch?v=SgmNxE9lWcY)|
 

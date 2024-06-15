@@ -1,4 +1,4 @@
-# WD-pacman
+# WD-SW3-TC03
 
 ![Pac-Man Logo](./assets/img/pacman-logo.png)
 

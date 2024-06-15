@@ -4,7 +4,13 @@ body {
     padding: 0;
     background-color: #f0f4f8; /* Light gray background */
     color: #333; /* Dark gray text color */
+    background-image: url('../../assets/img/background.png'); /* Adjust path as necessary */
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
 }
+
+/* Your existing CSS styles continue below */
 
 header {
     background-color: #000; /* Black header background */
@@ -202,6 +208,7 @@ footer {
     background-image: url("../../assets/img/pacman-footer10.png");
     animation: fadeIn 1s ease-out;
 }
+
 .button {
     display: inline-block;
     background-color: #007bff;

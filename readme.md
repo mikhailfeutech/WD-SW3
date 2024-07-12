@@ -53,28 +53,6 @@ WD-SW3-TC03
 │       └── script.js
 ├── pages/
 │   ├── assets/
-│   ├── img/
-│   │   ├── pacman-logo.png
-│   │   ├── pacman-header1.png
-│   │   ├── pacman-header2.png
-│   │   ├── pacman-header3.png
-│   │   ├── pacman-header4.png
-│   │   ├── pacman-header5.png
-│   │   ├── pacman-header6.png
-│   │   ├── pacman-header7.png
-│   │   ├── pacman-header8.png
-│   │   ├── pacman-header9.png
-│   │   ├── pacman-header10.png
-│   │   ├── pacman-footer1.png
-│   │   ├── pacman-footer2.png
-│   │   ├── pacman-footer3.png
-│   │   ├── pacman-footer4.png
-│   │   ├── pacman-footer5.png
-│   │   ├── pacman-footer6.png
-│   │   ├── pacman-footer7.png
-│   │   ├── pacman-footer8.png
-│   │   ├── pacman-footer9.png
-│   │   └── pacman-footer10.png
 │   ├── header-gallery/
 │   │   ├── assets/
 │   │   │   └── css/

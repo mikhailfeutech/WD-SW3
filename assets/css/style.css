@@ -10,8 +10,6 @@ body {
     background-repeat: no-repeat; /* Adjust as needed */
 }
 
-/* Your existing CSS styles continue below */
-
 header {
     background-color: #000; /* Black header background */
     color: #fff; /* White text color */
@@ -43,170 +41,8 @@ h3 {
     color: #555; /* Dark gray for headings */
 }
 
-footer {
-    background-color: #000; /* Black footer background */
-    color: #fff; /* White text color */
-    text-align: center;
-    padding: 1rem;
-    position: fixed; /* Fixed position at the bottom */
-    bottom: 0;
-    width: 100%;
-}
-
-.gallery {
-    background-color: #fff; /* White background */
-    padding: 2rem;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
-}
-
-/* Header styles */
-.header-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.buttons {
     margin-top: 1rem;
-}
-
-.header {
-    width: 200px;
-    height: 100px;
-    background-size: cover;
-    background-position: center center;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-/* Static Header Styles */
-.header1 {
-    background-image: url("../../assets/img/pacman-header1.png");
-}
-
-.header2 {
-    background-image: url("../../assets/img/pacman-header2.png");
-}
-
-.header3 {
-    background-image: url("../../assets/img/pacman-header3.png");
-}
-
-.header4 {
-    background-image: url("../../assets/img/pacman-header4.png");
-}
-
-.header5 {
-    background-image: url("../../assets/img/pacman-header5.png");
-}
-
-/* Animated Header Styles */
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.header6 {
-    background-image: url("../../assets/img/pacman-header6.png");
-    animation: slideIn 1s ease-out;
-}
-
-.header7 {
-    background-image: url("../../assets/img/pacman-header7.png");
-    animation: slideIn 1s ease-out;
-}
-
-.header8 {
-    background-image: url("../../assets/img/pacman-header8.png");
-    animation: slideIn 1s ease-out;
-}
-
-.header9 {
-    background-image: url("../../assets/img/pacman-header9.png");
-    animation: fadeIn 1s ease-out;
-}
-
-.header10 {
-    background-image: url("../../assets/img/pacman-header10.png");
-    animation: fadeIn 1s ease-out;
-}
-
-/* Footer styles */
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 1rem;
-}
-
-.footer {
-    width: 200px;
-    height: 50px;
-    background-size: cover;
-    background-position: center center;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-/* Static Footer Styles */
-.footer1 {
-    background-image: url("../../assets/img/pacman-footer1.png");
-}
-
-.footer2 {
-    background-image: url("../../assets/img/pacman-footer2.png");
-}
-
-.footer3 {
-    background-image: url("../../assets/img/pacman-footer3.png");
-}
-
-.footer4 {
-    background-image: url("../../assets/img/pacman-footer4.png");
-}
-
-.footer5 {
-    background-image: url("../../assets/img/pacman-footer5.png");
-}
-
-/* Animated Footer Styles */
-.footer6 {
-    background-image: url("../../assets/img/pacman-footer6.png");
-    animation: slideIn 1s ease-out;
-}
-
-.footer7 {
-    background-image: url("../../assets/img/pacman-footer7.png");
-    animation: slideIn 1s ease-out;
-}
-
-.footer8 {
-    background-image: url("../../assets/img/pacman-footer8.png");
-    animation: slideIn 1s ease-out;
-}
-
-.footer9 {
-    background-image: url("../../assets/img/pacman-footer9.png");
-    animation: fadeIn 1s ease-out;
-}
-
-.footer10 {
-    background-image: url("../../assets/img/pacman-footer10.png");
-    animation: fadeIn 1s ease-out;
 }
 
 .button {
@@ -222,4 +58,14 @@ footer {
 
 .button:hover {
     background-color: #0056b3;
+}
+
+footer {
+    background-color: #000; /* Black footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1rem;
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0;
+    width: 100%;
 }

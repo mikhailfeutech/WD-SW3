@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.header {
+    width: 100%;
+    max-width: 800px;
+    height: 150px;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.header nav ul li a {
+    color: white;
+}
+
+/* Static Headers */
+.static-header1 {
+    background-color: #ff6347; /* Tomato */
+    background-image: linear-gradient(45deg, #ff6347, #ff4500);
+}
+
+.static-header2 {
+    background-color: #4682b4; /* SteelBlue */
+    background-image: linear-gradient(45deg, #4682b4, #5f9ea0);
+}
+
+.static-header3 {
+    background-color: #3cb371; /* MediumSeaGreen */
+    background-image: linear-gradient(45deg, #3cb371, #2e8b57);
+}
+
+.static-header4 {
+    background-color: #ff69b4; /* HotPink */
+    background-image: linear-gradient(45deg, #ff69b4, #ff1493);
+}
+
+.static-header5 {
+    background-color: #8a2be2; /* BlueViolet */
+    background-image: linear-gradient(45deg, #8a2be2, #9370db);
+}
+
+/* Animated Headers */
+.animated-header1 {
+    background-color: #ff4500; /* OrangeRed */
+    animation: slide-in 4s infinite;
+}
+
+.animated-header2 {
+    background-color: #7fffd4; /* Aquamarine */
+    animation: bounce 4s infinite;
+}
+
+.animated-header3 {
+    background-color: #daa520; /* GoldenRod */
+    animation: fade-in-out 4s infinite;
+}
+
+.animated-header4 {
+    background-color: #5f9ea0; /* CadetBlue */
+    animation: rotate 4s infinite;
+}
+
+.animated-header5 {
+    background-color: #ff1493; /* DeepPink */
+    animation: pulse 4s infinite;
+}
+
+/* Animations */
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes fade-in-out {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

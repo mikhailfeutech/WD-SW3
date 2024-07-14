@@ -2,17 +2,17 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8; /* Light gray background */
-    color: #333; /* Dark gray text color */
-    background-image: url('../../assets/img/background.png'); /* Adjust path as necessary */
-    background-size: cover; /* Adjust as needed */
-    background-position: center center; /* Adjust as needed */
-    background-repeat: no-repeat; /* Adjust as needed */
+    background-color: #f0f4f8;
+    color: #333;
+    background-image: url('../../assets/img/background.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 header {
-    background-color: #000; /* Black header background */
-    color: #fff; /* White text color */
+    background-color: #000;
+    color: #fff;
     padding: 1rem;
     text-align: center;
 }
@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* White navigation link color */
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -38,7 +38,7 @@ main {
 }
 
 h3 {
-    color: #555; /* Dark gray for headings */
+    color: #555;
 }
 
 .buttons {
@@ -61,11 +61,11 @@ h3 {
 }
 
 footer {
-    background-color: #000; /* Black footer background */
-    color: #fff; /* White text color */
+    background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 1rem;
-    position: fixed; /* Fixed position at the bottom */
+    position: fixed;
     bottom: 0;
     width: 100%;
 }

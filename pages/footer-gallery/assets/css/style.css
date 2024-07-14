@@ -43,46 +43,44 @@ main {
 }
 
 .footer {
-    width: 200px; /* Increased width for better footer look */
-    padding: 1rem; /* Added padding for spacing */
+    width: 200px;
+    padding: 1rem;
     margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1rem; /* Adjusted font size */
+    font-size: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Animated Footers */
 .animated-footer1 {
-    background-color: #ff4500; /* OrangeRed */
+    background-color: #ff4500;
     animation: slide-in 2s infinite;
 }
 
 .animated-footer2 {
-    background-color: #7fffd4; /* Aquamarine */
+    background-color: #7fffd4;
     animation: bounce 2s infinite;
 }
 
 .animated-footer3 {
-    background-color: #daa520; /* GoldenRod */
+    background-color: #daa520;
     animation: fade-in-out 2s infinite;
 }
 
 .animated-footer4 {
-    background-color: #5f9ea0; /* CadetBlue */
+    background-color: #5f9ea0;
     animation: rotate 2s infinite;
 }
 
 .animated-footer5 {
-    background-color: #ff1493; /* DeepPink */
+    background-color: #ff1493;
     animation: pulse 2s infinite;
 }
 
-/* Animations */
 @keyframes slide-in {
     0% {
         transform: translateX(-100%);

@@ -59,33 +59,31 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Animated Headers */
 .animated-header1 {
-    background-color: #ff4500; /* OrangeRed */
+    background-color: #ff4500;
     animation: slide-in 4s infinite;
 }
 
 .animated-header2 {
-    background-color: #7fffd4; /* Aquamarine */
+    background-color: #7fffd4;
     animation: bounce 4s infinite;
 }
 
 .animated-header3 {
-    background-color: #daa520; /* GoldenRod */
+    background-color: #daa520;
     animation: fade-in-out 4s infinite;
 }
 
 .animated-header4 {
-    background-color: #5f9ea0; /* CadetBlue */
+    background-color: #5f9ea0;
     animation: rotate 4s infinite;
 }
 
 .animated-header5 {
-    background-color: #ff1493; /* DeepPink */
+    background-color: #ff1493;
     animation: pulse 4s infinite;
 }
 
-/* Animations */
 @keyframes slide-in {
     0% {
         transform: translateX(-100%);

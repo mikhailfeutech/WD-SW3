@@ -15,13 +15,6 @@ This project showcases various Pac-Man themed header and footer designs, both st
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Rules, Practices, and Principles
-1. Always use `WD-` in the front of the title of the project for the subject followed by your custom naming.
-2. Do not rename any .html files; always use `index.html` as the filename.
-3. Place files in their respective folders.
-4. All file naming must be in lower-kebab-case.
-5. Use only external CSS.
-6. Renaming of pages folder names is a must and should relate to what it is doing or data it holds.
 ```
 WD-SW3-TC03
 ├── assets/
